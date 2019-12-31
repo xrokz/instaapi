@@ -5,6 +5,11 @@ class Instagram {
 		this.user = username;
 		this.pass = pass;
 	}
+
+	search(username) {
+		return 'username'
+	}
+
 }
 
 module.exports = {
